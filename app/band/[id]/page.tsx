@@ -10,7 +10,7 @@ export async function generateStaticParams() {
 export default function Page({ params }: { params: { id: string } }) {
 	const book = `/band/${params.id}/book`
 	return <>
-		<div>ID: {params.id}</div>
+		<div className="text-3xl">ID: {params.id}</div>
 		<Link href={book}>Book</Link>
 	</>
 }
