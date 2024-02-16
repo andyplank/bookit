@@ -18,8 +18,8 @@ export default function Error({
 		console.error(error)
 	}, [error])
  
-	return (
-  	<div>
+	return (	
+		<div>
 			<h1>Oops!</h1>
 			<h2>Something went wrong!</h2>
 		</div>
